@@ -30,7 +30,7 @@ namespace ListTests
         public void Test_Remove()
         {
             var list = new IntegerList(new List<int> { 1, 2, 100 });
-            list.RemoveByDeviation(10);
+            list.RemoveByDeviation(40);
 
             CollectionAssert.AreEqual(
                 new List<int> { 1, 2 },
